@@ -1,0 +1,34 @@
+# Rider files
+.idea/
+*.sln.iml
+
+# .NET Core files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vs/
+*.bak
+*.cache
+*.log
+*.npmrc
+*.lock
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.PokemonReviewApp.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
