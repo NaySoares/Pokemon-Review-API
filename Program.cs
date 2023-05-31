@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<DataContext>(options => 
   options.UseMySql(
-    builder.Configuration.GetConnectionString("Tsundoku"),
+    builder.Configuration.GetConnectionString("DefaultConnection"),
     new MySqlServerVersion(new Version(8, 0, 26))
   ));
 
